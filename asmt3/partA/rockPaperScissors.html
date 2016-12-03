@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<!--
+Alex Nguyen
+CS290 FALL 2015
+10-26-15
+Asmt 3
+-->
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="rps.css">
+		<title>
+			Alex Nguyen CS290 Asmt2
+		</title>
+	</head>
+	<body>
+        <header class="header">
+            <h1>ROCK PAPER SCISSORS</h1>
+            <h2>Instructions</h2>
+            <p>
+                Scissor beats Paper, Paper beats Rock, and Rock beats Scissor.
+            </p>
+            <p>
+                Click on the button to choose your weapon.
+            </p>
+        </header>
+        <div class="menu">
+            <h2>Play</h2>
+            <table>
+                <tr>
+                    <td>
+                        You
+                    </td>
+                    <td>
+                        Computer
+                    </td>
+
+                </tr>
+                <tr>
+                    <td>
+                        <img src="img/questionmark.gif" id="pChoice" height="300" width="300" alt="YOUR CHOICE IS HERE">
+
+                    </td>
+                    <td>
+                        <img src="img/questionmark.gif" id="cChoice" height="300" width="300" alt="COMPUTER'S CHOICE IS HERE">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="button" class="btn" id="rock" value="Rock">
+                        <input type="button" class="btn" id="paper" value="Paper">
+                        <input type="button" class="btn" id="scissor" value="Scissors">
+                    </td>
+                    <td id="results">
+
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <br>
+        <div class="scores">
+            <h2>Scores</h2>
+            <table>
+                <tr>
+                    <td>
+                        You
+                    </td>
+                    <td id="pScore">
+                        0
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Computer
+                    </td>
+                    <td id="cScore">
+                        0
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Ties
+                    </td>
+                    <td id="tScore">
+                        0
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <br>
+		<footer>
+            <p>by Alex Nguyen CS290 Fall 2015</p>
+		</footer>
+        <script src="rps.js"></script>
+	</body>
+</html>

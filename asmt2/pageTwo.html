@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<!--
+Alex Nguyen
+CS290 FALL 2015
+10-16-15
+Asmt 2
+-->
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="asmt2.css">
+		<title>
+			Alex Nguyen CS290 Asmt2 Page 1
+		</title>
+	</head>
+
+	<body>
+		<header class="menu">
+			<ul>
+				<li><a href="pageTwo.html">My Account</a></li>
+				<li><a href="#">Wish List</a></li>
+				<li><a href="#">Shopping Cart</a></li>
+				<li><a href="#">Checkout</a></li>
+			</ul>
+		</header>
+		<div class="title">
+			<h1>Art Store</h1>
+		</div>
+		<nav class="nav">
+			<ul>
+				<li><a href="pageOne.html">Home</a></li>
+				<li><a href="#">About Us</a></li>
+				<li><a href="#">Art Works</a></li>
+				<li><a href="#">Artists</a></li>
+			</ul>
+		</nav>
+		<br>
+		<div class="content">
+			<form action="http://web.engr.oregonstate.edu/~schutfoj/cs290/process.php" method="get">
+				<table class="form">
+					<tr>
+						<td colspan="3">
+							<h2>Customer Registration</h2>
+							<hr>					</td>
+					</tr>
+					<tr>
+						<td colspan="3">
+							<h3>1. User Info</h3>
+							<hr>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							First name
+						</td>
+						<td>
+							Last name
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<input type="text" name="first">
+						</td>
+						<td>
+							<input type="text" name="last">
+						</td>
+					</tr>
+					<tr>
+						<td>
+							Email
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<input type="email" name="email" size="60" placeholder="Format for email is XXX@YYY.ZZZ">
+						</td>
+					</tr>
+					<tr>
+						<td>
+							Password
+						</td>
+						<td>
+							Password Repeat
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<input type="password" name="pass1" placeholder="at least 8 characters">
+						</td>
+						<td>
+							<input type="password" name="pass2" placeholder="at least 8 characters">
+						</td>
+					</tr>
+					<tr>
+						<td colspan="3">
+							<h3>2. Location</h3>
+							<hr>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							Address
+						</td>
+					</tr>
+					<tr>
+						<td colspan="3">
+							<input type="text" name="address" size="60">
+						</td>
+					</tr>
+					<tr>
+						<td>
+							City
+						</td>
+						<td>
+							State
+						</td>
+						<td>
+							Zip
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<input type="text" name="city">
+						</td>
+						<td>
+							<input type="text" name="state" size="2" maxlength="2">
+						</td>
+						<td>
+							<input type="text" name="zip" size="5" maxlength="5">
+						</td>
+					</tr>
+					<tr>
+						<td>
+							Phone
+						</td>
+						<td>
+							Country
+						</td>
+
+					</tr>
+					<tr>
+						<td>
+							<input type="tel" name="phone" placeholder="NNN-NNN-NNNN">
+						</td>
+						<td>
+							<select name="country">
+								<option value="USA">USA</option>
+								<option value="CAN">Canada</option>
+								<option value="MEX">Mexico</option>
+							</select>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							Continent
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<input type="radio" name="continent" value="NA"> North America
+							<br>
+							<input type="radio" name="continent" value="EU"> Europe
+							<br>
+							<input type="radio" name="continent" value="SA"> South America
+						</td>
+					</tr>
+					<tr>
+						<td colspan="3">
+							<h3>3. Personal Details</h3>
+							<hr>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							Birth Day
+						</td>
+						<td>
+							Favorite Color
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<input type="date" name="birthday">
+						</td>
+						<td>
+							<input type="color" name="favorite">
+						</td>
+					</tr>
+					<tr>
+						<td>
+							Interest In Art
+						</td>
+					</tr>
+					<tr>
+						<td colspan="2">
+							From 0 to 5<input type="range" name="interest" min="0" max="5" value="0">
+						</td>
+					</tr>
+
+
+					<tr>
+						<td colspan="3">
+							<h3>4. All Done</h3><hr>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<input type="checkbox" name="accept">
+							I agree to the <a href="#">Terms of the Site</a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<button type="submit"><img src="images/button_ok.png" alt="OK"> Sign me up!</button>
+						</td>
+					</tr>
+
+				</table>
+			</form>
+		</div>
+		<br>
+		<footer>
+			<p>
+				All images are copyright to their owners. This is just a hypothetical
+				site C 2014 Copyright Art Store
+			</p>
+		</footer>
+	</body>
+</html>

@@ -1,0 +1,45 @@
+index
+--
+* ~~Welcome page that has a google style search bar and passes off to search~~
+* could probably use some banner text
+
+search
+--
+* ~~Takes query and gives the results in a table~~
+* if user is logged in
+ * ~~Add a column to the table labeled favorite~~
+ * ~~allow logged in users to favorite food pairings~~
+ * ~~Ajax call to a php script that takes username+ID and stores: pair,id~~
+ * create an array of the users favorites IDs
+ * when generating the table, cross reference the array and high light the favorited box
+
+about
+--
+* ~~should be ez~~
+
+account
+--
+* ~~delete themselves from the users table~~
+* figure out what to do with the other data
+
+favorites
+--
+* ~~Show all and only the favorited stuff~~
+* allow the user to unfavorite pairs
+
+login
+--
+* ~~steal login from asmt 5~~
+* ~~steal ajax call from signup page for username uniqueness~~
+* ~~make the logged in page prettier~~
+* use Ajax to check username uniqueness
+
+logout
+--
+* ~~Do it, steal from asmt5~~
+
+signup
+--
+* ~~steal from asmt 5~~
+* ~~add javascript for ajax call~~
+* use same ajax call to check username uniqueness

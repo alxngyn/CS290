@@ -1,0 +1,12 @@
+<?php
+	// set the expiration date to one hour ago
+	setcookie("user", "", time() - 3600);
+?>
+
+<?php include("header.php"); ?>
+
+<?php
+	echo "<h3>You have successfully logged out.</h3>";
+?>
+
+<?php include("footer.php"); ?>

@@ -1,0 +1,50 @@
+/*
+Alex Nguyen
+CS290 Fall 2015
+Asmt3
+October 25, 2015
+*/
+
+
+table{
+    margin: auto;
+}
+
+.btn {
+	background-color:transparent;
+	border-radius:15px;
+	border:1px solid #6a2c70;
+	display:inline-block;
+	cursor:pointer;
+	color:#f9ed69;
+	font-family:Arial;
+	font-size:17px;
+	padding:8px 15px;
+	text-decoration:none;
+	text-shadow:0 1px 0 #b83b5f;
+}
+.btn:hover {
+	background-color:transparent;
+}
+.btn:active {
+	position:relative;
+	top:1px;
+}
+
+.menu{
+    color: #F9ED69;
+    background-color: #F08A5D;
+    padding: 5px;
+}
+
+.scores{
+    color: #F9ED69;
+    background-color: #B83B5E;
+    padding: 5px;
+}
+
+footer{
+    color: #F9ED69;
+    background-color: #6A2C70;
+    padding: 5px;
+}

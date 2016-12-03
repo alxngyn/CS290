@@ -1,0 +1,56 @@
+
+body{
+    background-image: url(http://orig06.deviantart.net/b99b/f/2010/337/d/1/quiet_ambient_2_by_freakyframes-d3453cr.jpg);
+    background-size: auto;
+    background-position: center;
+    background-repeat:repeat-x;
+    font-family: sans-serif;
+    font-weight: 200;
+
+}
+header h1 {
+    float:left;
+    font-size: 1.5em;
+}
+header{
+    padding: .5em 1em;
+
+}
+nav{
+    float: right;
+}
+
+nav li{
+    display: inline;
+}
+
+.content{
+    text-align: center;
+}
+
+.container{
+    padding-top: .5em;
+}
+
+.title p{
+    text-align: center;
+    font-size: 5em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+ul{
+    padding: 0;
+}
+
+li{
+    display: inline;
+    font-family:sans-serif;
+    font-size: 1.4em;
+    padding: 4px;
+}
+
+.calendar{
+    padding-bottom: 2em;
+    font-weight: bold;
+}

@@ -1,0 +1,49 @@
+/*
+    Alex Nguyen
+    CS290 Fall 2015
+    Asmt 5
+    November 25, 2015
+*/
+
+body{
+    text-align: center;
+    font-family: sans-serif, serif, helvetica;
+    font-weight: 300;
+    background-color: #eeeeee;
+}
+
+.header nav li{
+    display: inline;
+}
+
+.center-box{
+    background-color: rgb(16, 157, 170);
+    margin: 0 100px;
+    padding: 3em;
+    border-radius: 15px;
+}
+
+.center-box div{
+    padding: 7px 0;
+}
+
+.scoreboard{
+    margin: auto;
+    padding: 10px;
+    border: 1px solid black;
+    font-size: 250%;
+}
+
+.scoreboard td{
+    border: 1px solid black;
+    padding: 10px 35px;
+    text-align: center;
+}
+
+.footer{
+    width: 100%;
+    margin: 0 auto;
+    padding: 10px 0;
+    color: #ffffff;
+    background-color: #828282;
+}

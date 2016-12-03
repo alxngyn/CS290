@@ -1,0 +1,37 @@
+
+
+<?php include("static/header.php"); ?>
+
+<form class="center-box" action="createUser.php" onsubmit="return validate(this);" method="post" name="form">
+	<h2>SIGN UP</h2>
+	<div>
+		<label>Name</label><br>
+		<input type="text" name="name">
+	</div>
+
+	<!-- USE JS TO CHECK IF email is an email-->
+
+	<div>
+		<label>Email</label><br>
+		<input type="text" name="email">
+	</div>
+
+	<!-- USE JS TO CHECK IF Passwords match -->
+	<div>
+		<label>Password</label><br>
+		<input type="password" name="pw">
+	</div>
+	<div>
+		<label>Confirm Password</label><br>
+		<input type="password" name="pw2">
+	</div>
+
+
+	<div id="button">
+		<button type="submit">Sign Up!</button>
+		<button type="Reset">Reset</button>
+	</div>
+</form>
+<script type="text/javascript" src="signup.js"></script>
+
+<?php include("static/footer.php"); ?>
